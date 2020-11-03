@@ -1,3 +1,3 @@
 # Pyrameter
 
-Python Paramater Generator for the Meshes!
+Python Parameter Generator for the Meshes!
