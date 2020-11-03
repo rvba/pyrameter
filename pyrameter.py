@@ -290,11 +290,6 @@ class Main_PT_Pyrameter(bpy.types.Panel):
 	bl_context="object"
 	bl_label="Pyrameter"
 
-	# Props
-	bpy.types.Scene.pyrameter_int = bpy.props.IntProperty("pyrameter_int", default=1)
-	bpy.types.Scene.pyrameter_float = bpy.props.FloatProperty("pyrameter_float", default=1.0)
-	bpy.types.Object.pyrameter_vertices = bpy.props.FloatVectorProperty("pyrameter_vertices")
-
 	@classmethod
 	def poll(cls,context):
 		return context.scene
