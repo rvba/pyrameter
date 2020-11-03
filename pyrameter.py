@@ -158,9 +158,6 @@ def pyrameter_int(name):
 
 def pyrameter_build(self,context,obj):
 
-	scale_x = 1 
-	scale_y = 1
-
 	pyverts = pyrameter_find_entry(obj,"vertices")
 	verts = pyverts.get_vertices()
 
